@@ -1,0 +1,18 @@
+{
+  "name": "prisma2",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "introspect": "npx prisma2 introspect"
+  },
+  "dependencies": {
+    "@prisma/client": "^2.0.0-preview021",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3",
+    "prisma2": "^2.0.0-preview021"
+  }
+}
